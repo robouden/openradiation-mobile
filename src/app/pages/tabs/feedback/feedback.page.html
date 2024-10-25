@@ -1,0 +1,10 @@
+<ng-container >
+  <app-header >{{'FEEDBACK.TITLE' | translate}}</app-header>
+
+  <ion-content>
+    <ion-textarea rows="5" [placeholder]="'FEEDBACK.MESSAGE' | translate" [(ngModel)]="feedbackMessage">
+    </ion-textarea>
+    <ion-input [label]="'FEEDBACK.FROM' | translate" class="values" type="email" [(ngModel)]="feedbackFrom"></ion-input>
+    <ion-button (click)="postFeedback()"> {{'FEEDBACK.SEND' | translate}}</ion-button>
+  </ion-content>
+</ng-container>

@@ -294,5 +294,13 @@
   },
   "SETTINGS": {
     "TITLE": "Settings"
+  },
+  "FEEDBACK" : {
+    "TITLE": "Feedback",
+    "FROM": "Contact mail (optional)",
+    "MESSAGE": "Message", 
+    "SUCCESS": "Your feedback was sent, thank you !",
+    "FAILURE": "Error while sending your feedback",
+    "SEND": "Send"
   }
 }

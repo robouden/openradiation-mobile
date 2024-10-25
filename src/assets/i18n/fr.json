@@ -294,5 +294,13 @@
   },
   "SETTINGS": {
     "TITLE": "Paramètres"
+  }, 
+  "FEEDBACK" : {
+    "TITLE": "Retours",
+    "FROM": "Mail de contact (optionnel)",
+    "MESSAGE": "Message", 
+    "SUCCESS": "Merci ! Votre retour a bien été envoyé",
+    "FAILURE": "Erreur de l'envoi de votre retour",
+    "SEND": "Envoyer"
   }
 }
