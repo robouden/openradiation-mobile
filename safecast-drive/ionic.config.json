@@ -1,0 +1,7 @@
+{
+  "name": "Safecast Drive",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
